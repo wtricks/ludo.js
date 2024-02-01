@@ -1,0 +1,42 @@
+{
+  "name": "@nanowiz/ludo.js",
+  "description": "A Javascript library for Ludo piece moves/validation.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/ludo.mjs",
+  "module": "dist/ludo.mjs",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "@vitest/ui": "^1.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2",
+    "vitest": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtricks/ludo.js.git"
+  },
+  "homepage": "https://wtricks.github.io/ludo.js",
+  "bugs": {
+    "url": "https://github.com/wtricks/ludo.js/issue"
+  },
+  "keywords": [
+    "ludo.js",
+    "ludo.js",
+    "library",
+    "wtricks"
+  ],
+  "license": "MIT",
+  "author": "Anuj Kumar <anujkumar00p@gmail.com>",
+  "files": [
+    "dist"
+  ]
+}
