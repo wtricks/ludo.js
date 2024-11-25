@@ -32,10 +32,10 @@ __Below is design of a Home of the board__
   -----------  -----------
  |  0  |  1 | | # | 14| 8 |
   -----------  -----------
- |  2  |  3 | | 20|15 | 9 |
+ |  2  |  3 | | 21|15 | 9 |
   -----------  -----------
 ```
-In the above structure, we have total 23 squares (22th square will be shared by all players). Each square has its own index that is denoted by 0 to 22 (or a-w) indices I have divided these squares into seven category (`home`, `safe`, `safe-end`, `safe-way`, `goal`, `left-way`, `right-way`, `normal`). First 4 squares (0 to 3) are `home` squares, square 7 and 20 are `safe` squares, squares from 10 to 14 are `safe-end` squares, square 15 is `safe-way` square, square 22 which is last square, is the `goal` square, square 16 is `left-way` square, squares 9 and 20 are `right-way` squares and remaining are `normal` squares.
+In the above structure, we have total 23 squares (22th square will be shared by all players). Each square has its own index that is denoted by 0 to 22 (or a-w) indices I have divided these squares into seven category (`home`, `safe`, `safe-end`, `safe-way`, `goal`, `left-way`, `right-way`, `normal`). First 4 squares (0 to 3) are `home` squares, square 7 and 20 are `safe` squares, squares from 10 to 14 are `safe-end` squares, square 15 is `safe-way` square, square 22 which is last square, is the `goal` square, square 16 is `left-way` square, squares 9 and 21 are `right-way` squares and remaining are `normal` squares.
 
 
 ### Key features
